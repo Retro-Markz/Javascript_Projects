@@ -37,6 +37,7 @@ body {
 
 .note {
   padding: 16px;
+  height: 220px;
   border-radius: 16px;
   resize: none;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
@@ -67,6 +68,7 @@ body {
   font-weight: 700;
   color: rgba(0, 0, 0, 0.3);
   cursor: pointer;
+  height: 220px;
 }
 
 .btn:hover {
