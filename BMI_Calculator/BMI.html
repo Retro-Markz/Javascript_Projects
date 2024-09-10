@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bmi.css" />
+    <title>VMI Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">Body Mass Index (BMI) Calculator</h1>
+      <span class="text">Your Height (cm)</span>
+      <input type="number" class="height" id="height" />
+      <span class="text">Your Weight (kg)</span>
+      <input type="number" class="weight" id="weight" />
+      <button class="btn" id="btn">Get BMI</button>
+      <input disabled type="text" class="input" id="bmi-result" />
+      <h4 class="info-text">
+        Weight Condition:
+        <span id="condition"></span>
+      </h4>
+    </div>
+
+    <script src="bmi.js"></script>
+  </body>
+</html>
